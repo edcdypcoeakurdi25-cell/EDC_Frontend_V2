@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+/* Custom scrollbar */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: whitesmoke;
+  border-radius: 9999px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: #21a172; /* emerald-400 */
+  border-radius: 9999px;
+}
