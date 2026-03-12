@@ -23,7 +23,7 @@ export default function NewOpeningForm() {
   
   const navigate = useNavigate();
   const FormNext = () => {
-    navigate("/opening_form_details")
+    navigate("/detailed_opening_form")
   }
     
     const FormTextarea = ({ label }) => (
